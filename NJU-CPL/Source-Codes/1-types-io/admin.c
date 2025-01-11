@@ -1,6 +1,7 @@
 #include<stdio.h>
-#include<ctype.h>
+#include<ctype.h>//预处理指令是一条一行，不能写在同一行
 #include<limits.h>
+
 int main(){
     char first_name[] = "Xiaoming";
     char last_name[] = "WANG";
@@ -35,7 +36,7 @@ int main(){
     C_oj,C_midexam,C_finalexam); 
 
     float score = C_oj * 0.4 + C_midexam * 0.1 + C_finalexam * 0.5;
-    printf("%.1f\t%d%%", score, rank);
+    printf("%.1f\t%d%%", score, rank);//默认情况下%f会显示6位数字，若要强制显示p位数字，可以：%.pf
     
     printf("MAX: %d, MIN: %d", INT_MAX, INT_MIN);
     return 0;

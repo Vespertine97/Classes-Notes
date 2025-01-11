@@ -30,8 +30,8 @@ int main()
     scanf("%d %d %d", &C_oj, &C_midexam, &C_finalexam);
     scanf("%d %%", &rank);
 
-    printf("%s %s\t%c\n"
-           "%.2d-%.2d-%d\t%.3s.\n" // mm-dd-yyyy
+    printf("%s %s\t%c\n"//"\t"表示制表符（不知道会跳多远，不由C语言决定）
+           "%.2d-%.2d-%d\t%.3s.\n" // mm-dd-yyyy，"%.2d"表示至少有2位数字
            "%d\t%d\t%d\n",
            first_name, last_name, gender,
            month, day, year, weekday,

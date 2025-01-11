@@ -9,3 +9,12 @@ int main(){
     printf("%.5g\n", Q);
     return 0;
 }
+/*
+一些补充：
+
+1.转义序列：\"表示字符",\\显示单独一个字符\
+eg：printf("\"hello"\ and \\world\\");
+产生如下输出："hello"and \world\
+
+2. const double表示定义一个常量（与宏定义有点区别）
+*/
