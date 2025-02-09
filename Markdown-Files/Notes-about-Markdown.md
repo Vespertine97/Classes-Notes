@@ -36,3 +36,22 @@
 使用 | 和 - 创建表格。例如：
 在第二行必须要有形如|---|----|---|的内容，从而划分列数。每一格中-的数量是不作要求的。
 ![alt text](image-3.png)
+
+---
+## LaTex
+### 一、函数、符号及特殊字符
+1. 向量：$\vec{a}+\vec{b}$
+#### 标准函数
+- 指数：$\exp_a b = a^b, \exp b = e^b,10^m$
+- 对数：$\ln c, \lg d = \log e, \log_{10} f$
+- 三角函数：
+  - $$\sin a, \cos b, \tan c, \cot d, \sec e, \csc f$$
+  - $$\arcsin a, \sinh a$$
+- 绝对值：$\left\vert s \right\vert $
+- 最大值、最小值：$\min(x,y), \max(x,y)$
+#### 界限，极限
+- $$\min x, \max y$$
+- $$\lim u$$
+- $$\lim_{x \to \infty} \frac{1}{n(n+1)}$$
+#### 投射
+- $$\Pr j_a\vec{r}$$
